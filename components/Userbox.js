@@ -17,21 +17,22 @@ const BoxedComponent = ({ profileImage, userName, userText, userText2, optionalP
 
 const styles = StyleSheet.create({
   container: {
-    paddingVertical: 24,
+    paddingVertical: 12,
     paddingHorizontal: 16,
     flexDirection: 'column',
     alignItems: 'flex-start',
     marginVertical: 8,
-    borderRadius: 10,
+    width: '80%',
+    borderRadius: 15,
     backgroundColor: '#FFF',
     shadowColor: '#DDD4FC',
     shadowOffset: {
       width: 0,
-      height: 1.93,
+      height: 0.5,
     },
-    shadowRadius: 193.048,
-    shadowOpacity: 6.073,
-    elevation: 5, // Android shadow
+    shadowRadius: 5,
+    shadowOpacity: 0.5,
+    elevation: 2, // Android shadow
   },
   header: {
     flexDirection: 'row',
@@ -39,24 +40,24 @@ const styles = StyleSheet.create({
     marginBottom: 8,
   },
   profileImage: {
-    width: 40,
-    height: 40,
-    borderRadius: 20,
+    width: 20,
+    height: 20,
+    borderRadius: 15,
     marginRight: 8,
   },
   userName: {
-    fontSize: 16,
+    fontSize: 14,
     fontWeight: 'bold',
   },
   userText: {
-    fontSize: 14,
-    marginBottom: 8,
+    fontSize: 12,
+    marginBottom: 4,
   },
   optionalPhoto: {
     width: '100%',
-    height: 150,
-    borderRadius: 8,
-    marginTop: 8,
+    height: 160,
+    borderRadius: 4,
+    marginTop: 4,
   },
 });
 
